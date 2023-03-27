@@ -1,0 +1,62 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cash-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 500px;
+  background-color: #150b3e;
+  border-radius: 10px;
+}
+.icon {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #c7d2fe;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.name-cont {
+  display: flex;
+  flex-direction: row;
+}
+.n-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bal-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.h {
+  color: #585076;
+}
+.d {
+  color: #d4d2db;
+  font-weight: bold;
+  font-size: 30px;
+}
+.denom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: nones;
+}
